@@ -1,3 +1,8 @@
+variable "region" {
+  type        = string
+  description = "AWS Region"
+}
+
 variable "deletion_window_in_days" {
   type        = number
   default     = 10
